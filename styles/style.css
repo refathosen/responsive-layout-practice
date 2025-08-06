@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* navbar styles starts here */
+.navbar-wrapper{
+    background-color: rgb(71, 85, 105);
+}
+
+.navbar-main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px 20px;
+}
+
+.navbar-title{
+    color: #FFF;
+}
+
+.nav-menu-btn{
+    color: white;
+    background-color: black;
+    border-radius: 8px;
+    padding: 8px 12px;
+    border: 0;
+    margin-left: 10px;
+}
+
+.nav-hamburger-menu{
+    display: none;
+}
+/* navbar styles ends here */
+
+
+/* banner styles starts here */
+.banner-container{
+    width: 100%;
+    max-width: 1200px;
+    margin: 30px auto;
+    border: 2px solid red;
+    min-height: 400px;
+}
+
+
+/* banner styles ends here */

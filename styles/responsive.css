@@ -1,0 +1,24 @@
+@media screen and (max-width:800px){
+.navbar-main{
+    flex-direction: column;
+}
+
+.navbar-btn-container{
+    margin-top: 20px;
+}
+}
+
+@media screen and (max-width:500px){
+.navbar-main{
+    flex-direction: row;
+}
+
+.navbar-btn-container{
+    display: none;
+}
+
+.nav-hamburger-menu{
+    display: block;
+    color: #FFF;
+}
+}
