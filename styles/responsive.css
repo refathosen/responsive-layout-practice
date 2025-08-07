@@ -6,6 +6,16 @@
 .navbar-btn-container{
     margin-top: 20px;
 }
+
+.popular-cards-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+}
+
+.popular-collection{
+    margin: 80px 10px;
+}
 }
 
 @media screen and (max-width:500px){
@@ -20,5 +30,26 @@
 .nav-hamburger-menu{
     display: block;
     color: #FFF;
+}
+
+.banner-container{
+    flex-direction: column;
+}
+
+.banner-img-container{
+    width: 100%;
+}
+.banner-text-container{
+    width: 100%;
+}
+
+.popular-cards-container{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 20px;
+}
+
+.popular-collection{
+    margin: 80px 10px;
 }
 }
